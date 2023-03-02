@@ -1,7 +1,7 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Quiz</router-link> &nbsp;&nbsp;
+    <router-link to="/about">Settings</router-link>
   </nav>
   <router-view/>
 </template>
@@ -17,14 +17,19 @@
 
 nav {
   padding: 30px;
+  color: #a9dbc5;
+  background-color: azure;
+  
 }
 
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #579b7c;
+ 
 }
 </style>

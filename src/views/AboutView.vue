@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Settings />
   </div>
 </template>
+import Se
+<script>
+import Settings from '@/components/Settings.vue';
+export default{
+  components:{
+    Settings
+  }
+
+}
+</script>
